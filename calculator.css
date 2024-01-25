@@ -1,0 +1,41 @@
+.calculator {
+  width: 300px; /* Reduced width */
+  margin: auto;
+  margin-top: 70px;
+  background-color: rgb(30, 27, 27);
+  border-radius: 10px;
+}
+
+#display {
+  margin-bottom: 10px; /* Margin for the input */
+  font-size:20px;
+  font-weight: 500;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-top: 10px; /* Margin for the first row of buttons */
+}
+
+.button {
+  width: 60px; /* Reduced button size */
+  height: 60px; /* Reduced button size */
+  font-size: 40px; /* Adjusted font size */
+  cursor: pointer;
+  border: 1px solid transparent; /* Add a transparent border for better rounding */
+  
+  
+  overflow: hidden; /* Ensure content within the button is also round */
+}
+
+.button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(249, 248, 248, 0.3);
+}
+
+.body{
+
+  background-color: rgb(58, 62, 66);
+}
